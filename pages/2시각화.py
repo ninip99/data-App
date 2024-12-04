@@ -1,7 +1,7 @@
 import pandas as pd
-import streamlit as st
 import matplotlib.pyplot as plt
 import seaborn as sns
+import streamlit as st
 
 st.set_page_config(page_title="graph", page_icon="🎉")
 st.sidebar.header("데이터 시각화")
@@ -15,7 +15,7 @@ st.markdown("## 시각화 개요 \n"
 st.markdown("<hr>", unsafe_allow_html=True)
 st.markdown("### 연관성 파악을 위한 시각화 ")
 
-df = pd.read_csv('../iris.csv')
+df = pd.read_csv('iris.csv')
 
 st.write(df.head())
 
