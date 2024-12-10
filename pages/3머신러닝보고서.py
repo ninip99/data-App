@@ -11,9 +11,9 @@ import streamlit as st
 
 df = pd.read_csv('iris.csv')
 
-
+st.sidebar.header('🌸 머신러닝 보고서')
 # 시각화
-st.title('아이리스 데이터 상관관계 분석')
+st.header('🌸 아이리스 데이터 상관관계 분석',divider='rainbow')
 st.write(df)
 
 st.markdown(''' 
